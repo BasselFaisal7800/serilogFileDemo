@@ -1,0 +1,27 @@
+2024-04-21 11:36:54.218 +02:00  INF  Now listening on: https://localhost:7224
+2024-04-21 11:36:54.238 +02:00  INF  Now listening on: http://localhost:5148
+2024-04-21 11:36:54.239 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2024-04-21 11:36:54.239 +02:00  INF  Hosting environment: Development
+2024-04-21 11:36:54.239 +02:00  INF  Content root path: F:\.ultimate\.Net\LogSys\SeriLogDemo\SeriLogDemo
+2024-04-21 11:36:54.969 +02:00  INF  Request starting HTTP/2 GET https://localhost:7224/swagger/index.html - null null
+2024-04-21 11:36:55.149 +02:00  INF  Request finished HTTP/2 GET https://localhost:7224/swagger/index.html - 200 null text/html;charset=utf-8 189.0512ms
+2024-04-21 11:36:55.201 +02:00  INF  Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-21 11:36:55.201 +02:00  INF  Request starting HTTP/2 GET https://localhost:7224/_vs/browserLink - null null
+2024-04-21 11:36:55.214 +02:00  INF  Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 12.8475ms
+2024-04-21 11:36:55.254 +02:00  INF  Request finished HTTP/2 GET https://localhost:7224/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.9369ms
+2024-04-21 11:36:55.546 +02:00  INF  Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - null null
+2024-04-21 11:36:55.651 +02:00  INF  Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.0512ms
+2024-04-21 11:37:00.099 +02:00  INF  Request starting HTTP/2 GET https://localhost:7224/WeatherForecast - null null
+2024-04-21 11:37:00.106 +02:00  INF  Executing endpoint 'SeriLogDemo.Controllers.WeatherForecastController.Get (SeriLogDemo)'
+2024-04-21 11:37:00.119 +02:00  INF  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SeriLogDemo.WeatherForecast] Get() on controller SeriLogDemo.Controllers.WeatherForecastController (SeriLogDemo).
+2024-04-21 11:37:00.129 +02:00  INF  Executing ObjectResult, writing value of type 'SeriLogDemo.WeatherForecast[]'.
+2024-04-21 11:37:00.142 +02:00  INF  Executed action SeriLogDemo.Controllers.WeatherForecastController.Get (SeriLogDemo) in 17.4229ms
+2024-04-21 11:37:00.142 +02:00  INF  Executed endpoint 'SeriLogDemo.Controllers.WeatherForecastController.Get (SeriLogDemo)'
+2024-04-21 11:37:00.142 +02:00  INF  Request finished HTTP/2 GET https://localhost:7224/WeatherForecast - 200 null application/json; charset=utf-8 44.1114ms
+2024-04-21 11:37:01.117 +02:00  INF  Request starting HTTP/2 GET https://localhost:7224/WeatherForecast - null null
+2024-04-21 11:37:01.118 +02:00  INF  Executing endpoint 'SeriLogDemo.Controllers.WeatherForecastController.Get (SeriLogDemo)'
+2024-04-21 11:37:01.118 +02:00  INF  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SeriLogDemo.WeatherForecast] Get() on controller SeriLogDemo.Controllers.WeatherForecastController (SeriLogDemo).
+2024-04-21 11:37:01.118 +02:00  INF  Executing ObjectResult, writing value of type 'SeriLogDemo.WeatherForecast[]'.
+2024-04-21 11:37:01.118 +02:00  INF  Executed action SeriLogDemo.Controllers.WeatherForecastController.Get (SeriLogDemo) in 0.5497ms
+2024-04-21 11:37:01.119 +02:00  INF  Executed endpoint 'SeriLogDemo.Controllers.WeatherForecastController.Get (SeriLogDemo)'
+2024-04-21 11:37:01.119 +02:00  INF  Request finished HTTP/2 GET https://localhost:7224/WeatherForecast - 200 null application/json; charset=utf-8 1.8983ms
